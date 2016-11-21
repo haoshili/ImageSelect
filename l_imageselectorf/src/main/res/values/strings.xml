@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">ImageSelector</string>
+    <string name="select_image">Select Image</string>
+    <string name="preview_image">Preview</string>
+    <string name="complete_iamge">Done</string>
+    <string name="alum">Alum</string>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="half_black">#88000000</color>
+    <color name="dark_black">#ee000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="alpha_black">#20000000</color>
+    <color name="alpha_white">#20FFFFFF</color>
+    <color name="actionbar_bg">#263238</color>
+    <color name="main_bg">#263238</color>
+    <color name="toolbar_bg">#333333</color>
+    <color name="holo_blue_light">#fff0693a</color>
+    <color name="holo_blue_dark">#ce5a32</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_green_dark">#ff669900</color>
+    <color name="test">#00CF95</color>
+    <color name="test_d">#06a579</color>
+    <color name="blue">#0066FF</color>
+    <color name="no_color">#00000000</color>
+    <color name="bg_color">#fffafafa</color>
+    <color name="bg_color_deep">#ffffff</color>
+    <color name="text_color">#434343</color>
+    <color name="text_gray">#6b6b6b</color>
+    <color name="gray_line">#c3c3c5</color>
+    <color name="gray_bg">#ebebeb</color>
+    <color name="black_half">#80000000</color>
+    <color name="bg_gray">#fff2f2f2</color>
+    <color name="line_gray">#ffdcdcdc</color>
+    <color name="text_l">#ff737373</color>
+    <color name="text_g">#ff0d91a0</color>
+    <color name="text_l_g">#ee0d91a0</color>
+    <color name="text_lg">#ff62be5b</color>
+    <color name="gray_select">#e4e4e4</color>
+    <color name="green_x">#0b7884</color>
+    <color name="green_l_x">#ee0b7884</color>
+    <color name="orange">#fff0693a</color>
+    <color name="switch_model">#880d91a0</color>
+
+</resources>

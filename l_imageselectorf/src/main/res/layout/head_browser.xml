@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/re_action_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="73dp"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dip"
+        android:background="#0d91a0" />
+
+    <RelativeLayout
+        android:id="@+id/re_action_bars"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#0d91a0" >
+
+        <RelativeLayout
+            android:id="@+id/re_menu_home"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/re_click_l_g"
+            android:clickable="true" >
+
+            <ImageView
+                android:id="@+id/iv_head0"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_arrow_back_white_36dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@id/re_menu_home"
+            android:text="@string/preview_image"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_curPosition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+     		android:layout_alignParentRight="true"
+            android:text="1/1"
+            android:textColor="#ffffff"
+            android:textSize="14dip"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:id="@+id/downland_image"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/re_click_l_g"
+            android:clickable="true" >
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_cloud_download_white_36dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>
